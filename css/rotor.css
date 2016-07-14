@@ -1,0 +1,66 @@
+/*  Rotor CSS library by Dan McKeown copyright June 2016 http://rotor.pacificio.com								*/
+/*  http://danmckeown.info											*/
+/*  copyright 2016 Licensed Under MIT License			    */
+
+#photo_container {
+    width: max;
+}
+
+body {
+    background-color: black;
+}
+.hero {
+  background-position: center;
+}
+
+.rotor_image:nth-child(1) {
+	width: 100%;
+  	height: 800px;
+  	background-image: url("http://pacificarchives.sf3am.com/photos/files/2011/09/the-lake-through-the-trees-Mackinac-Island-Sept2011-by-DanielJMcKeown.jpg");
+  	background-size: cover;
+
+}
+
+.rotor_image:nth-child(n+2) {
+	width: 100%;
+  	height: 800px;
+  	background-image: url("http://pics.sf3am.com/var/albums/New-York-City/nyc-byDanielJMcKeown-June-2010-175.jpg");
+  	background-size: cover;
+    display: none;
+}
+
+#rotor_1 {
+  	background-image: url("http://pacificarchives.sf3am.com/photos/files/2011/09/the-lake-through-the-trees-Mackinac-Island-Sept2011-by-DanielJMcKeown.jpg");
+}
+
+#rotor_2 {
+  	background-image: url("http://pics.sf3am.com/var/albums/New-York-City/nyc-byDanielJMcKeown-June-2010-175.jpg");
+}
+
+#rotor_3 {
+  	background-image: url("http://pics.sf3am.com/var/albums/birds-in-the-front-yard--April2010-by-DanielJMcKeown.jpg");
+}
+
+#rotor_4 {
+  	background-image: url("http://pacificarchives.sf3am.com/photos/files/2011/09/Mackinac-Bridge-at-sunset-by-DanielJMcKeown-Sept2011.jpg");
+}
+
+button {
+    margin-top: 20rem;
+    margin-left: 10rem;
+    border-radius: 10px;
+    border: 1px solid #AAAAAA;
+    background-color: #EEEEEE;
+}
+
+main {
+    margin-right: 20px;
+}
+
+body {
+  font-family: "San Francisco", "Roboto", "Lato", "Ubuntu", Helvetica, sans-serif, sans;
+}
+
+.il {
+  display: inline-block;
+}
