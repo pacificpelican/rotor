@@ -6,6 +6,15 @@
     width: max;
 }
 
+p, b, a {
+    color: yellow;
+}
+
+header {
+    max-width: 70%;
+    padding-left: 1rem;
+}
+
 body {
     background-color: black;
 }
@@ -30,23 +39,23 @@ body {
 }
 
 #rotor_1 {
-  	background-image: url("http://pacificarchives.sf3am.com/photos/files/2011/09/the-lake-through-the-trees-Mackinac-Island-Sept2011-by-DanielJMcKeown.jpg");
+  	background-image: url("../images/the-lake-through-the-trees-Mackinac-Island-Sept2011-by-DanielJMcKeown.jpg");
 }
 
 #rotor_2 {
-  	background-image: url("http://pics.sf3am.com/var/albums/New-York-City/nyc-byDanielJMcKeown-June-2010-175.jpg");
+  	background-image: url("../images/nyc-byDanielJMcKeown-June-2010-175.jpg");
 }
 
 #rotor_3 {
-  	background-image: url("http://pics.sf3am.com/var/albums/birds-in-the-front-yard--April2010-by-DanielJMcKeown.jpg");
+  	background-image: url("../images/birds-in-the-front-yard--April2010-by-DanielJMcKeown.jpg");
 }
 
 #rotor_4 {
-  	background-image: url("http://pacificarchives.sf3am.com/photos/files/2011/09/Mackinac-Bridge-at-sunset-by-DanielJMcKeown-Sept2011.jpg");
+  	background-image: url("../images/Mackinac-Bridge-at-sunset-by-DanielJMcKeown-Sept2011.jpg");
 }
 
 button {
-    margin-top: 20rem;
+    margin-top: 11rem;
     margin-left: 10rem;
     border-radius: 10px;
     border: 1px solid #AAAAAA;
