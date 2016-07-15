@@ -15,6 +15,10 @@ header {
     padding-left: 1rem;
 }
 
+a img {
+    max-height: 25px;
+}
+
 body {
     background-color: black;
 }
