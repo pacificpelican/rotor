@@ -18,4 +18,4 @@ The [index.html](index.html) in this project implements Rotor and its default el
 
 Rotor requires [jQuery](http://jquery.com), and by default uses that library's fadeIn() and fadeOut() methods, but that behavior can be overridden by passing in different comparable methods like toggle() in flipPic's 5th and 6th parameters.  (The 3rd and 4th parameters allow the default parent and child selectors to be overridden; if you want to skip any parameters in the flipPic function then just pass them 'undefined' or null).
 
-Rotor was created by [Dan McKeown](http://danmckeown.info) and [an ES5-transpiled version of it](blob/rotor010beta4/js/rotor010beta4babelIIFE.js) was used in the [Northpaw](http://djmblog.com/product/18) theme for WordPress.
+Rotor was created by [Dan McKeown](http://danmckeown.info) and [an ES5-transpiled version of it](https://github.com/pacificpelican/rotor/blob/rotor010beta4/js/rotor010beta4babelIIFE.js) was used in the [Northpaw](http://djmblog.com/product/18) theme for WordPress.
